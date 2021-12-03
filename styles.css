@@ -1,0 +1,64 @@
+/* Koska en keksinyt parempia värejä etsin vain netistä mapsin värit ja käytin niitä taustassa ja elementeissä */
+input[type="text"]{
+    border: 1px solid #2a928da9;
+    font-size:16px;
+    margin:auto;
+    text-align: center;
+}
+
+input[type="button"]{
+    background-color:  #c3ecb2; /* google maps väri */
+    border: none;
+    color: rgb(56, 56, 56);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.6s;
+}
+
+input[type="button"]:hover{
+    cursor: pointer;
+    background-color: rgb(174, 235, 69);
+}
+h2 {
+    text-align: center;
+}
+#map {
+    margin: auto;
+    text-align: center;
+    height: 400px;
+    width: 60%;
+}
+form {
+    text-align: center;
+    margin: auto;
+}
+body {
+    background-color: rgb(170, 218, 255);
+}
+p{
+    display:inline;
+}
+#testi {
+    margin:auto;
+    text-align: center;
+
+    background-color: rgb(145, 192, 228);
+    border: 3px solid #2a928da9;
+    display:none;
+    opacity:0.0;
+}
+h4 {
+    text-align: center;
+}
+.card-header {
+    background-color: rgb(145, 192, 228);
+
+}
+#boxi {
+    width: 60%;
+    margin: auto;
+}
